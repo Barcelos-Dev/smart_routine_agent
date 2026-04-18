@@ -40,7 +40,7 @@ uma agenda semanal otimizada automaticamente.
 - Banco de dados (PostgreSQL)
 
 ## Estrutura do Projeto
-\```
+```
 smart_routine_agent/
 ├── app.py              # Servidor Flask e rotas
 ├── data/
@@ -51,11 +51,11 @@ smart_routine_agent/
 │   └── horarios.py     # Identificação de horários livres
 └── templates/
     └── index.html
-\```
+```
 
 ## Como Rodar
 
-\```bash
+```bash
 # Clone o repositório
 git clone https://github.com/Barcelos-Dev/smart_routine_agent.git
 cd smart_routine_agent
@@ -65,4 +65,4 @@ pip install flask
 
 # Execute
 python app.py
-\```
+```
